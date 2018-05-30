@@ -1,0 +1,14 @@
+com/walmart/test/SearchProduct.class
+com/walmart/test/Taxonomy.class
+com/walmart/test/Pagination.class
+com/walmart/test/ValueOfTheDay.class
+com/walmart/test/TrendingItems.class
+com/walmart/test/StoreLocator.class
+com/walmart/validation/ResponseValidator.class
+com/walmart/app/SpringBootApp.class
+com/walmart/client/JerseyClient.class
+com/walmart/listner/CustomTestNGReporter.class
+com/walmart/base/APIEndPointsEnum.class
+com/walmart/test/SearchItems.class
+com/walmart/test/CustomerReviews.class
+com/walmart/base/WalmartBaseTest.class

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sprint Regression Test Suite" duration-ms="6655" started-at="2018-05-29T12:12:29Z" finished-at="2018-05-29T12:12:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6655" started-at="2018-05-29T12:12:29Z" finished-at="2018-05-29T12:12:35Z">
+      <class name="com.walmart.test.TrendingItems">
+        <test-method status="PASS" signature="testTrendingItems()[pri:0, instance:com.walmart.test.TrendingItems@3f3afe78]" name="testTrendingItems" duration-ms="2509" started-at="2018-05-29T17:42:29Z" finished-at="2018-05-29T17:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrendingItems -->
+      </class> <!-- com.walmart.test.TrendingItems -->
+      <class name="com.walmart.test.Taxonomy">
+        <test-method status="PASS" signature="testTaxonomy()[pri:0, instance:com.walmart.test.Taxonomy@511baa65]" name="testTaxonomy" duration-ms="1557" started-at="2018-05-29T17:42:32Z" finished-at="2018-05-29T17:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTaxonomy -->
+      </class> <!-- com.walmart.test.Taxonomy -->
+      <class name="com.walmart.test.SearchItems">
+        <test-method status="PASS" signature="testSearchItems()[pri:0, instance:com.walmart.test.SearchItems@5b464ce8]" name="testSearchItems" duration-ms="444" started-at="2018-05-29T17:42:35Z" finished-at="2018-05-29T17:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchItems -->
+      </class> <!-- com.walmart.test.SearchItems -->
+      <class name="com.walmart.test.Pagination">
+        <test-method status="PASS" signature="testPagination()[pri:0, instance:com.walmart.test.Pagination@30c7da1e]" name="testPagination" duration-ms="755" started-at="2018-05-29T17:42:34Z" finished-at="2018-05-29T17:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPagination -->
+      </class> <!-- com.walmart.test.Pagination -->
+      <class name="com.walmart.test.StoreLocator">
+        <test-method status="PASS" signature="testStoreLocator()[pri:0, instance:com.walmart.test.StoreLocator@340f438e]" name="testStoreLocator" duration-ms="439" started-at="2018-05-29T17:42:34Z" finished-at="2018-05-29T17:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStoreLocator -->
+      </class> <!-- com.walmart.test.StoreLocator -->
+      <class name="com.walmart.test.SearchProduct">
+        <test-method status="PASS" signature="testSearchProduct()[pri:0, instance:com.walmart.test.SearchProduct@39ba5a14]" name="testSearchProduct" duration-ms="927" started-at="2018-05-29T17:42:31Z" finished-at="2018-05-29T17:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+      </class> <!-- com.walmart.test.SearchProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Sprint Regression Test Suite -->
+</testng-results>

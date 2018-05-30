@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.walmart.listner.CustomTestNGReporter"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.walmart.test.CustomerReviews"/>
+      <class name="com.walmart.test.TrendingItems"/>
+      <class name="com.walmart.test.ValueOfTheDay"/>
+      <class name="com.walmart.test.SearchProduct"/>
+      <class name="com.walmart.test.Taxonomy"/>
+      <class name="com.walmart.test.StoreLocator"/>
+      <class name="com.walmart.test.Pagination"/>
+      <class name="com.walmart.test.SearchItems"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.walmart.test.CustomerReviews">
+        <methods>
+          <include name="testCustomerReviews"/>
+        </methods>
+      </class> <!-- com.walmart.test.CustomerReviews -->
+      <class name="com.walmart.test.ValueOfTheDay">
+        <methods>
+          <include name="testValueOfTheDay"/>
+        </methods>
+      </class> <!-- com.walmart.test.ValueOfTheDay -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

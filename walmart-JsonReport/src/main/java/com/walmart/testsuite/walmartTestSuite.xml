@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" verbose="1">
+	<listeners>
+
+		<listener class-name="com.walmart.test.CustomTestNGReporter"></listener>
+
+	</listeners>
+
+
+	<test name="Regression suite 1">
+		<classes>
+			<class name="com.walmart.test.CustomerReviews" />
+			<class name="com.walmart.test.Pagination" />
+			<class name="com.walmart.test.SearchItems" />
+			<class name="com.walmart.test.SearchProduct" />
+			<class name="com.walmart.test.StoreLocator" />
+			<class name="com.walmart.test.Taxonomy" />
+			<class name="com.walmart.test.TrendingItems" />
+			<class name="com.walmart.test.ValueOfTheDay" />
+
+		</classes>
+	</test>
+</suite>

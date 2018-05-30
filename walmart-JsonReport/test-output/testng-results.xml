@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9135" started-at="2018-05-30T07:28:57Z" finished-at="2018-05-30T07:29:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9135" started-at="2018-05-30T07:28:57Z" finished-at="2018-05-30T07:29:06Z">
+      <class name="com.walmart.test.Pagination">
+        <test-method status="PASS" signature="testPagination()[pri:0, instance:com.walmart.test.Pagination@63355449]" name="testPagination" duration-ms="9107" started-at="2018-05-30T12:58:57Z" finished-at="2018-05-30T12:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPagination -->
+      </class> <!-- com.walmart.test.Pagination -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
